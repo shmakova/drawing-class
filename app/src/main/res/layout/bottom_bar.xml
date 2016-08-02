@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/size_medium_56"
+              android:background="@color/white"
+              android:elevation="@dimen/spacing_small_8"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+
+
+    <LinearLayout
+        style="@style/ButtonWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/change_color_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/change_color"
+            android:src="@drawable/ic_square"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_color"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_small_14"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ButtonWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/brush_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/brush"
+            android:src="@drawable/ic_brush"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/brush"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_small_14"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ButtonWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/stamp_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/stamp"
+            android:src="@drawable/ic_stamp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stamp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_small_14"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ButtonWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/text"
+            android:src="@drawable/ic_cursor_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_small_14"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/ButtonWrapper"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/filter_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/filter"
+            android:src="@drawable/ic_filter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_small_14"/>
+    </LinearLayout>
+</LinearLayout>

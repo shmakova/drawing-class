@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Yamblz</string>
     <string name="content">Hello</string>
+    <string name="change_color">Цвет</string>
+    <string name="save">Сохранить</string>
+    <string name="upload">Загрузить</string>
+    <string name="brush">Кисть</string>
+    <string name="filter">Фильтр</string>
+    <string name="stamp">Печать</string>
+    <string name="text">Текст</string>
 </resources>
